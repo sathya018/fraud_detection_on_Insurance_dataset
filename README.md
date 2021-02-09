@@ -1,6 +1,6 @@
 # fraud_detection_on_Insurance_dataset
 ##Description About the Dataset
-     The dataset has 1048575 rows and 24 columns
+     The dataset has 1048575 rows and 24 columns.
      
       Column                                 Non-Null Count    Dtype  
 ---  ------                                 --------------    -----  
@@ -28,10 +28,10 @@
  21  ratio_of_total_costs_to_total_charges  1048575 non-null  float64
  22  Result                                 1048575 non-null  int64  
  23  Payment_Typology                       1048575 non-null  int64  
-dtypes: float64(5), int64(6), object(13)
+dtypes: float64(5), int64(6), object(13).
 
 #missing values and Duplicates in the Dataset
-     I have named the dataframe as (fraud_check), there are some missing values in the  dataset to find that we use a [.isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isnull.html)
+     I have named the dataframe as (fraud_check), there are some missing values in the  dataset to find that we use a [.isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isnull.html).
      ```python
      fraud_check.isnull().sum()
      ```
@@ -60,7 +60,7 @@ ratio_of_total_costs_to_total_charges       0
 Result                                      0
 Payment_Typology                            0
 
-we have missing values on 4 columns ###Area_Service,###Hospital County,###Hospital Id,###Mortality risk  
+we have missing values on 4 columns ###Area_Service,###Hospital County,###Hospital Id,###Mortality risk . 
      
      
      
