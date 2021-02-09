@@ -36,29 +36,29 @@ dtypes: float64(5), int64(6), object(13).
      fraud_check.isnull().sum()
      ```
      Area_Service                             2456
-Hospital County                          2456
-Hospital Id                              2456
-Age                                         0
-Gender                                      0
-Cultural_group                              0
-ethnicity                                   0
-Days_spend_hsptl                            0
-Admission_type                              0
-Home or self care,                          0
-ccs_diagnosis_code                          0
-ccs_procedure_code                          0
-apr_drg_description                         0
-Code_illness                                0
-Mortality risk                             42
-Surg_Description                            0
-Weight_baby                                 0
-Abortion                                    0
-Emergency dept_yes/No                       0
-Tot_charg                                   0
-Tot_cost                                    0
-ratio_of_total_costs_to_total_charges       0
-Result                                      0
-Payment_Typology                            0
+-Hospital County                          2456
+-Hospital Id                              2456
+-Age                                         0
+-Gender                                      0
+-Cultural_group                              0
+-ethnicity                                   0
+-Days_spend_hsptl                            0
+-Admission_type                              0
+-Home or self care,                          0
+-ccs_diagnosis_code                          0
+-ccs_procedure_code                          0
+-apr_drg_description                         0
+-Code_illness                                0
+-Mortality risk                             42
+-Surg_Description                            0
+-Weight_baby                                 0
+-Abortion                                    0
+-Emergency dept_yes/No                       0
+-Tot_charg                                   0
+-Tot_cost                                    0
+-ratio_of_total_costs_to_total_charges       0
+-Result                                      0
+-Payment_Typology                            0
 
 we have missing values on 4 columns ###Area_Service,###Hospital County,###Hospital Id,###Mortality risk . 
      
